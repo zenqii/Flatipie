@@ -1,17 +1,14 @@
 """
 		Copyright (c) 2020 Flatipie
 	This project was created by Flatipie.
-
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
-
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
-
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -22,7 +19,7 @@ SOFTWARE.
 """
 
 from PyQt5.QtWidgets import ( QApplication, QWidget, QGridLayout, QDesktopWidget )
-from Flatipie.widgets import Button
+from Flatipie.widgets import MaterialCard
 from Flatipie import apply_palette, ModernWindow
 import sys
 
@@ -41,7 +38,7 @@ class MainWindow(QWidget):
         # You can use different style aswell like Flat and more in Button.
         # Read more infos at https://github.com/flatipie/flatipie
         
-        grid.addWidget(Button("Push me"), x, y)
+        grid.addWidget(MaterialCard("Push me"), x, y)
     
     self.setLayout(grid)
     
