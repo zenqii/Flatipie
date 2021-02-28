@@ -1,3 +1,4 @@
+> This project has been stop developing for a while but we will continue developing soon.
 <h1 align="center">
      <br>
      <img src="https://github.com/flatipie/Flatipie/blob/main/.resources/flatipie.png" alt="Flatipie">
